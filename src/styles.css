@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: calc(100% - 4em); /* without paddign */
+  background-color: rgb(15, 52, 79);
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-size: 3em;
+  padding: 2em;
+}
