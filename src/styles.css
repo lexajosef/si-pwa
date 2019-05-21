@@ -2,20 +2,23 @@
 
 html, body {
   height: calc(100% - 4em); /* without paddign */
-  background-color: rgb(15, 52, 79);
-  color: white;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-
-  display: grid;
-  text-align: center;
-  align-items: center;
-  font-family: 'Montserrat';
-  font-size: 3em;
-  padding: 2em;
-}
-html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-toolbar {
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+main { 
+  max-height: calc(100vh - 64px); 
+  overflow: auto; 
+  margin-top: 64px; 
+}
+@media (max-width: 599px) {
+  main {
+    max-height: calc(100vh - 56px);
+    margin-top: 56px; 
+  }
+}

@@ -1,3 +1,14 @@
+<mat-toolbar color="primary" role="banner">
+  <mat-toolbar-row>
+    <span>Nurse TODO List</span>
+    <span class="example-spacer"></span>
+    <button mat-button>ODHLÁSIT</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<!--TODO: add to snackbar -->
 <span style="font-size:12px;" *ngIf="update">There is update for your app!</span>
 
-<router-outlet></router-outlet>
+<main role="main">
+  <router-outlet></router-outlet>
+</main>

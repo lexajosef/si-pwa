@@ -1,0 +1,8 @@
+article { 
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-size: 3em;
+  padding: 16px;
+}
